@@ -1,28 +1,31 @@
-# Exercise 5: Data analysis with Pandas (10 points)
+# Exercise 5: Data analysis with pandas (10 points)
 
-In this exercise, we will be doing data analysis using the [Pandas - Python Data Analysis Library](http://pandas.pydata.org/). So far, we have only used example data stored in list variables, and this week we will be loading data files and interacting with actual data sets. 
+In this exercise, we will be doing data analysis using [pandas - the Python Data Analysis Library](http://pandas.pydata.org/). So far, we have only used example data stored in list variables, and this week we will be loading data files and interacting with actual data sets. 
 
-In this exercise you are asked to analyze temperature data from Kumpula, Helsinki (in Southern Finland) and Rovaniemi (a city in northern Finland) and to explore how their summer temperatures have differed in 2017.
+In this exercise you are asked to analyze air temperature data from Kumpula, Helsinki (in Southern Finland) and Rovaniemi (a city in northern Finland) and to explore how their summer temperatures differed in 2017.
 
-After making your changes to the notebook, you will need to upload it to GitHub.
+## Completing the exercise
 
-- **Exercise 5 is due by the start of the next lesson (9:15 am, 7 October 2020)**.
-- Don't forget to check out the [hints for this week's exercise](https://geo-python-site.readthedocs.io/en/latest/lessons/L5/exercise-5.html#exercise-5-hints) if you're having trouble.
-- Scores on this exercise are out of **10 points (Problems 1-3)**. Problem 4 is optional.
+- **Exercise 5 is due by the start of the next lesson (9:15 am, 13 October 2021)**.
+- **Remember to save and commit your changes locally, and push your changes to GitHub after each major change**!
+- **We are [working in pairs](https://geo-python-site.readthedocs.io/en/latest/lessons/L2/why-pairs.html) on this exercise**, and we will only grade the repository of the member of your pair that is responsible for this week's exercise.
+
+## Where to find help
+
+- Review the [materials for Lesson 5](https://geo-python-site.readthedocs.io/en/latest/lessons/L5/overview.html)
+- Check out the [hints for this week's exercise](https://geo-python-site.readthedocs.io/en/latest/lessons/L5/exercise-5.html#exercise-5-hints) if you're having trouble.
 
 ## Before you start
 
 ### Clone the Exercise 5 repository
 
-- Make sure you cloned your own repository (repository name contains your GitHub username). 
-- After solving the problems, remember to commit your changes and push them to GitHub. 
-- Remember also to answer all written questions in the exercise, in addition to the programming tasks.
+Before starting to work with the problems for this week, you should start a new JupyterLab instance and clone your own Exercise 5 repository (e.g., `exercise-5-htenkanen`) in the instance using Git as we saw in [**Lesson 2**](https://geo-python-site.readthedocs.io/en/latest/lessons/L2/git-basics.html#clone-a-repository-from-github).
 
 ### Input data
 
 We will use NOAA weather data obtained from [here](https://www7.ncdc.noaa.gov/CDO/cdopoemain.cmd?datasetabbv=DS3505&countryabbv=&georegionabbv=&resolution=40). The data has been stored in a CSV file (comma delimited text file) which is stored in this repository: [data/6153237444115dat.csv](data/6153237444115dat.csv).
 
-You can read the full description of the data and all the attributes from this file: [data/3505doc.txt](data/3505doc.txt) that is also available in this exercise repository. 
+You can read the full description of the data and all the attributes from this file that is also available in this exercise repository: [data/3505doc.txt](data/3505doc.txt). 
 
 The first five rows of the data look like following:
 
@@ -46,18 +49,11 @@ The most important attributes for this exercise are:
  - **MAX** = Maximum temperature in Fahrenheit
  - **MIN** = Minimum temperature in Fahrenheit
  
-## Getting started
+## Start working
 
-Always remove these two lines when starting to work on an exercise:
-```
-# REPLACE THE ERROR BELOW WITH YOUR OWN CODE
-raise NotImplementedError()
-```
-This error will tell us if you have not even started to solve the problem when checking the exercises :)
+There are three graded problems in this week's exercise and one optional problem.
 
-### Problems
-
-- [Problem 1: Basic statistics](Exercise-5-problem-1.ipynb)
-- [Problem 2: Data manipulation and subsetting](Exercise-5-problem-2.ipynb)
-- [Problem 3: Data analysis](Exercise-5-problem-3.ipynb)
-- [Problem 4: Data aggregation (Optional, but useful!)](Exercise-5-problem-4.ipynb)
+1. [Problem 1: Basic statistics (2 points)](Exercise-5-problem-1.ipynb)
+2. [Problem 2: Data manipulation and subsetting (4 points)](Exercise-5-problem-2.ipynb)
+3. [Problem 3: Data analysis (4 points)](Exercise-5-problem-3.ipynb)
+4. [Problem 4: Data aggregation (*optional*, 0 points)](Exercise-5-problem-4.ipynb)
